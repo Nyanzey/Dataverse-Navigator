@@ -3,9 +3,9 @@
 Proyecto de una aplicación de realidad virtual utilizando unity y Oculus Rift. Este proyecto se realizó como parte del trabajo del curso de Interacción Humano Computador del programa de ciencia de la computación en la Universidad Católica San Pablo (UCSP). En este repositorio se encuentra la aplicación para el usuario navegador, la parte del usuario controlador puede ser encontrada en el repositorio: <https://github.com/joaquin30/dataverse-controller>
 
 ## Integrantes del equipo
-- Bruno Fernandez Gutierrez
-- Joaquin Pino Zavala
-- Fredy Quispe Neira
+- Bruno Fernandez Gutierrez (bruno.fernandez@ucsp.edu.pe)
+- Joaquin Pino Zavala (joaquin.pino@ucsp.edu.pe)
+- Fredy Quispe Neira (fredy.quispe@ucsp.edu.pe)
 
 # Cómo Descargar y Ejecutar el Proyecto de Unity desde GitHub para Oculus Rift
 
