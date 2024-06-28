@@ -23,7 +23,7 @@ Esta guía te llevará a través de los pasos para descargar un proyecto de Unit
    - Navega al directorio donde deseas descargar el proyecto.
    - Ejecuta el siguiente comando:
      ```
-     git clone https://github.com/Nyanzey/Dataverse.git
+     git clone https://github.com/Nyanzey/Dataverse-Navigator.git
      ```
 
 2. **Abrir el Proyecto en Unity:**
