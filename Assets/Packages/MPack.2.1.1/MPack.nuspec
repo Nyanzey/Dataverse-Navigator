@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MPack</id>
+    <version>2.1.1</version>
+    <title>MPack</title>
+    <authors>MPack</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <iconUrl>https://cli.msgpack.org/images/msgpack.ico</iconUrl>
+    <description>A seriously light weight, no fluff MessagePack reader/writer.</description>
+    <tags>mpack messagepack msgpack serializer binary deserializer</tags>
+    <repository type="git" url="https://github.com/caesay/MPack" commit="564fe1560c905956567479ce41d71f783995933d" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.8" />
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
