@@ -53,3 +53,31 @@ Esta guía te llevará a través de los pasos para descargar un proyecto de Unit
 ## Notas Adicionales
 - Asegúrate de seguir las instrucciones específicas proporcionadas en el README.
 - Si encuentras algún problema, consulta el rastreador de problemas del proyecto en GitHub o busca ayuda del equipo.
+
+## Características
+
+### Menú de incio
+
+![](images/initialuinavigator.png)
+
+### Múltiples espacios de clusterización para trabajar
+
+![](images/clusteringspaces.png)
+
+### Interfaz de control para usuario
+
+![](images/navigatorui.png)
+
+### Selección e inspección de puntos
+
+![](images/selectionnavigatordone.png)
+
+### Consistencia de estados entre usuario navegador y controlador
+
+## Vista de navegador
+
+![](images/selectionnavigatordone.png)
+
+## Vista de controlador
+
+![](images/selectioncontrollerdone.png)
