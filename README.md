@@ -54,7 +54,7 @@ Esta guía te llevará a través de los pasos para descargar un proyecto de Unit
 - Asegúrate de seguir las instrucciones específicas proporcionadas en el README.
 - Si encuentras algún problema, consulta el rastreador de problemas del proyecto en GitHub o busca ayuda del equipo.
 
-### Características
+# Características
 
 ## Menú de incio
 
@@ -74,10 +74,10 @@ Esta guía te llevará a través de los pasos para descargar un proyecto de Unit
 
 ## Consistencia de estados entre usuario navegador y controlador
 
-# Vista de navegador
+### Vista de navegador
 
 ![](images/selectionnavigatordone.png)
 
-# Vista de controlador
+### Vista de controlador
 
 ![](images/selectioncontrollerdone.png)
