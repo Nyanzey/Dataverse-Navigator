@@ -1,6 +1,6 @@
 # Dataverse: Una aplicación para visualización y clustering de datos
 
-Proyecto de una aplicación de realidad virtual utilizando unity y Oculus Rift. Este proyecto se realizó como parte del trabajo del curso de Interacción Humano Computador del programa de ciencia de la computación en la Universidad Católica San Pablo (UCSP).
+Proyecto de una aplicación de realidad virtual utilizando unity y Oculus Rift. Este proyecto se realizó como parte del trabajo del curso de Interacción Humano Computador del programa de ciencia de la computación en la Universidad Católica San Pablo (UCSP). En este repositorio se encuentra la aplicación para el usuario navegador, la parte del usuario controlador puede ser encontrada en el repositorio: <https://github.com/joaquin30/dataverse-controller>
 
 ## Integrantes del equipo
 - Bruno Fernandez Gutierrez
