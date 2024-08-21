@@ -13,7 +13,7 @@ Esta guía te llevará a través de los pasos para descargar un proyecto de Unit
 
 ## Requisitos Previos
 - [Git](https://git-scm.com/) instalado en tu máquina.
-- [Unity](https://unity.com/) instalado en tu máquina.
+- [Unity](https://unity.com/)(v2022.3.24f1) instalado en tu máquina.
 - [Oculus Rift](https://www.oculus.com/rift/) y sus controladores configurados en tu sistema.
 
 ## Pasos
