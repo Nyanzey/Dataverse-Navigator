@@ -74,7 +74,10 @@ The architecture follows a **collaborative client–server model**, where:
 
 ```mermaid
 flowchart TB
+    %% --- Controller Subgraph ---
     subgraph Controller["🖥️ Controller User (Python)"]
+        direction TB
+        CT[ ]:::invisible
         P1[Data Processing<br/>EfficientNet-Lite4]
         P2[Dimensionality Reduction<br/>UMAP, PCA, t-SNE]
         P3[Clustering<br/>KMeans, HDBSCAN, OPTICS, etc.]
@@ -82,22 +85,31 @@ flowchart TB
         P5[Graphical Interface<br/>DearPyGUI]
     end
 
+    %% --- Network Layer Subgraph ---
     subgraph NetworkLayer["🔗 Communication Layer"]
+        direction TB
+        NT[ ]:::invisible
         WS[WebSockets<br/>MessagePack]
     end
 
+    %% --- Navigator Subgraph ---
     subgraph Navigator["👓 Navigator User (Unity VR)"]
+        direction TB
+        NV[ ]:::invisible
         U1[3D Navigation<br/>Oculus Rift]
         U2[Data Visualization<br/>Point Clouds]
         U3[Data Selection<br/>RayCast / Sphere Selector]
         U4[VR Interface<br/>Menus and Panels]
     end
 
+    %% --- Connections ---
     Controller -->|Sends updated data<br/>distributions| WS
     WS --> Navigator
-
     Navigator -->|Sends user selections<br/>and actions| WS
     WS --> Controller
+
+    %% --- Styles ---
+    classDef invisible fill:none,stroke:none;
 ```
 
 ### **Main Components**

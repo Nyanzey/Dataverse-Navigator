@@ -65,7 +65,10 @@ La arquitectura está organizada en una estructura **cliente-servidor colaborati
 
 ```mermaid
 flowchart TB
+    %% --- Subgrafo Controlador ---
     subgraph Controller["🖥️ Usuario Controlador (Python)"]
+        direction TB
+        CT[ ]:::invisible
         P1[Procesamiento de datos<br/>EfficientNet-Lite4]
         P2[Reducción de dimensionalidad<br/>UMAP, PCA, t-SNE]
         P3[Clustering<br/>KMeans, HDBSCAN, OPTICS, etc.]
@@ -73,22 +76,32 @@ flowchart TB
         P5[Interfaz gráfica<br/>DearPyGUI]
     end
 
+    %% --- Subgrafo Capa de Comunicación ---
     subgraph NetworkLayer["🔗 Capa de Comunicación"]
+        direction TB
+        NT[ ]:::invisible
         WS[WebSockets<br/>MessagePack]
     end
 
+    %% --- Subgrafo Navegador VR ---
     subgraph Navigator["👓 Usuario Navegador (Unity VR)"]
+        direction TB
+        NV[ ]:::invisible
         U1[Navegación 3D<br/>Oculus Rift]
         U2[Visualización de datos<br/>nubes de puntos]
         U3[Selección de datos<br/>RayCast / Selector esférico]
         U4[Interfaz VR<br/>menús y paneles]
     end
 
+    %% --- Conexiones ---
     Controller -->|Envía distribuciones de datos<br/>actualizadas| WS
     WS --> Navigator
-
     Navigator -->|Envía selecciones y acciones<br/>del usuario VR| WS
     WS --> Controller
+
+    %% --- Estilos ---
+    classDef invisible fill:none,stroke:none;
+
 ```
 
 ### **Componentes principales**
